@@ -1,0 +1,144 @@
+<!--Programaçãopara internet Dia 14
+Tema: criar um site de ads com ao menos 5 seções  
+Ex: 
+*página inicial/principal
+*Turmas 
+*Fotos
+*Ementas
+*Projetos
+*Trabalhos apresentados
+*Fale conosco
+Landing page  -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ads</title>
+    <link rel="stylesheet" href="Parte_Css.css">
+    <script src="https://kit.fontawesome.com/4e0330ae91.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="menu-superior fixo">
+        <div class="cabecalho"></div>
+        <div class="container">
+            <div class="logo">
+                <img src="/html/src/Ads.png" class="imglogo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#pagina-inicial">Página Inicial</a></li>
+                    <li><a href="#modulos">Ementas</a></li>
+                    <li><a href="#fotos">Fotos</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#fale-conosco">Fale Conosco</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="pagina-inicial" class="pagina-inicial secao">
+        <div class="conteudo-centralizado">
+            <h2 class="titulo-pagina-inicial">Bem-vindo ao Curso de Análise e Desenvolvimento de Sistemas</h2>
+            <img src="/html/src/Bem-Vindo-Mente-Curiosa.jpg" alt="Imagem de Boas-Vindas">
+            <p>Preparamos você para uma carreira emocionante no mundo da tecnologia. Nosso curso oferece:</p>
+            <ul>
+                <li>Aulas práticas e dinâmicas;</li>
+                <li>Professores experientes;</li>
+                <li>Oportunidades de estágio;</li>
+                <li>Conexão com o mercado de trabalho.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="modulos" class="modulos secao">
+        <h2 class="titulo-modulos">Ementas do Curso de ADS</h2>
+        <hr>
+        <div class="modulo">
+            <h3>Módulo 1: Introdução à Programação</h3>
+            <p><strong>Disciplinas:</strong> Lógica de Programação, Algoritmos e Estrutura de Dados</p>
+            <p><strong>Carga Horária:</strong> 120 horas</p>
+            <hr>
+        </div>
+        <div class="modulo">
+            <h3>Módulo 2: Desenvolvimento Web</h3>
+            <p><strong>Disciplinas:</strong> HTML, CSS, JavaScript e Frameworks Web</p>
+            <p><strong>Carga Horária:</strong> 180 horas</p>
+            <hr>
+        </div>
+        <div class="modulo">
+            <h3>Módulo 3: Banco de Dados</h3>
+            <p><strong>Disciplinas:</strong> Modelagem de Dados, SQL, NoSQL e Administração de Bancos de Dados</p>
+            <p><strong>Carga Horária:</strong> 150 horas</p>
+            <hr>
+        </div>
+        <div class="modulo">
+            <h3>Módulo 4: Desenvolvimento Mobile</h3>
+            <p><strong>Disciplinas:</strong> Android Development, iOS Development, React Native e Flutter</p>
+            <p><strong>Carga Horária:</strong> 200 horas</p>
+            <hr>
+        </div>
+        <div class="modulo">
+            <h3>Módulo 5: Engenharia de Software</h3>
+            <p><strong>Disciplinas:</strong> Metodologias Ágeis, Gerenciamento de Projetos, Qualidade de Software</p>
+            <p><strong>Carga Horária:</strong> 180 horas</p>
+            <hr>
+        </div>
+        <div class="modulo">
+            <h3>Módulo 6: Estágio Supervisionado</h3>
+            <p><strong>Disciplinas:</strong> Estágio em Empresas de Tecnologia</p>
+            <p><strong>Carga Horária:</strong> 400 horas</p>
+            <hr>
+        </div>
+    </div>
+
+    <div id="fotos" class="fotos secao">
+        <h2>Galeria de Fotos</h2>
+        <div class="galeria">
+            <img src="/html/src/f1.jpg" alt="Foto 1">
+            <img src="/html/src/f2.jpg" alt="Foto 2">
+        </div>
+    </div>
+
+    <div id="projetos" class="projetos secao">
+        <h2 class="titulo-projetos">Projetos em Destaque</h2>
+        <hr>
+        <div class="projeto">
+            <div class="info-projeto">
+                <h3>Teste de Algoritmos de Ordenação</h3>
+                <p><strong>Descrição:</strong> Desenvolvimento de um programa para teste e análise de desempenho de
+                    algoritmos de ordenação, como Bubble Sort, Quick Sort e Merge Sort.</p>
+                <p><strong>Tecnologias Utilizadas:</strong>HTML e CSS</p>
+            </div>
+            <a href="https://github.com/Djdufy/Ativadade02_EstruturaDados">Link para o projeto</a>
+            <hr>
+        </div>
+        <div class="projeto">
+            <div class="info-projeto">
+                <h3>Desenvolvimento de Telas em HTML</h3>
+                <p><strong>Descrição:</strong> Desenvolvimento de diversas telas de interface de usuário utilizando
+                    HTML, CSS e JavaScript para diferentes aplicações web.</p>
+                <p><strong>Tecnologias Utilizadas:</strong> Java</p>
+            </div>
+            <a href="https://github.com/Djdufy/Programacao-Internt-01">Link pra o projeto</a>
+        </div>
+        <hr>
+    </div>
+
+    <div id="fale-conosco" class="fale-conosco secao">
+        <h3>Fale Conosco</h3>
+        <p>Entre em contato conosco pelo instagram para tira duvidas e ser informa.</p>
+        <div class="instagram">
+            <a href="https://www.instagram.com/ADS_IFPI">
+                <i<i class="fa-brands fa-square-instagram"></i></i> ADS_IFPI
+            </a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
